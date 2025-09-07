@@ -207,7 +207,7 @@ var v = stdevwd.ndarray( 4, 1, x, 2, 1 );
 -   If `N <= 0`, both functions return `NaN`.
 -   If `N - c` is less than or equal to `0` (where `c` corresponds to the provided degrees of freedom adjustment), both functions return `NaN`.
 -   Both functions support array-like objects having getter and setter accessors for array element access (e.g., [`@stdlib/array-base/accessor`][@stdlib/array/base/accessor]).
--   Depending on the environment, the typed versions ([`dstdevwd`][@stdlib/stats/strided/dstdevwd], [`sstdevwd`][@stdlib/stats/base/sstdevwd], etc.) are likely to be significantly more performant.
+-   Depending on the environment, the typed versions ([`dstdevwd`][@stdlib/stats/strided/dstdevwd], [`sstdevwd`][@stdlib/stats/strided/sstdevwd], etc.) are likely to be significantly more performant.
 
 </section>
 
@@ -259,7 +259,7 @@ console.log( v );
 
 -   <span class="package-name">[`@stdlib/stats-strided/dstdevwd`][@stdlib/stats/strided/dstdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a double-precision floating-point strided array using Welford's algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats-strided/nanstdevwd`][@stdlib/stats/strided/nanstdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring NaN values and using Welford's algorithm.</span>
--   <span class="package-name">[`@stdlib/stats-base/sstdevwd`][@stdlib/stats/base/sstdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using Welford's algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats-strided/sstdevwd`][@stdlib/stats/strided/sstdevwd]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array using Welford's algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats-strided/stdev`][@stdlib/stats/strided/stdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats-strided/variancewd`][@stdlib/stats/strided/variancewd]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array using Welford's algorithm.</span>
 
@@ -357,7 +357,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/strided/nanstdevwd]: https://github.com/stdlib-js/stats-strided-nanstdevwd
 
-[@stdlib/stats/base/sstdevwd]: https://github.com/stdlib-js/stats-base-sstdevwd
+[@stdlib/stats/strided/sstdevwd]: https://github.com/stdlib-js/stats-strided-sstdevwd
 
 [@stdlib/stats/strided/stdev]: https://github.com/stdlib-js/stats-strided-stdev
 
